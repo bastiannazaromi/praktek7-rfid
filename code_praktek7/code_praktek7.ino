@@ -20,7 +20,10 @@ void setup() {
   
   SPI.begin(); //
   mfrc522.PCD_Init();
-
+  
+  Serial.println();
+  Serial.println("Start");
+  
   delay(1000);
 }
 
